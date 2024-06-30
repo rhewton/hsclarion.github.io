@@ -102,7 +102,7 @@ h6 {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
-  color: #ffa700;
+  color: #c0e234;
 }
 
 a,
@@ -270,7 +270,7 @@ ul {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #00669deb;
+  background-color: #ffffff;
   padding-bottom: 15px;
   box-shadow: 0px 0px 13px rgba(1, 12, 79, 0.36);
   -webkit-animation: 300ms ease-in-out 0s normal none fadeInDown;
@@ -289,7 +289,7 @@ ul {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #ffffff;
+  color: #007ff9;
   font-size: 16px;
   letter-spacing: 0.5px;
   padding: 0;
@@ -309,17 +309,17 @@ ul {
 }
 
 .navbar-light .navbar-nav .nav-link:focus {
-  color: #ffa700;
+  color: #c0e234;
 }
 
 .navbar-light .navbar-nav .nav-item .dropdown .nav-link:hover {
-  color: #ffa700;
+  color: #c0e234;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .active>.nav-link {
-  color: #ffa700;
+  color: #c0e234;
 }
 
 .navbar-light .navbar-nav .nav-item {
@@ -381,7 +381,7 @@ ul.dropdown li {
 }
 
 .stick .navbar-light .navbar-nav .nav-item .dropdown .nav-link:hover {
-  color: #ffa700;
+  color: #c0e234;
 }
 
 .logo-1 {
@@ -470,7 +470,7 @@ ul.dropdown li {
     position: relative;
     top: 0px;
     padding: 10px 0;
-    background: #00669ddb;
+    background: #007ff9;
   }
   .slicknav_btn {
     background: transparent;
@@ -484,7 +484,7 @@ ul.dropdown li {
     -moz-border-radius: 6px;
     border-radius: 0;
     background: transparent;
-    color: #ffa700;
+    color: #c0e234;
   }
   .slicknav_nav .slicknav_arrow {
     float: right;
@@ -503,11 +503,14 @@ ul.dropdown li {
 .slider-bg,
 .slider-bg img {
   height: 950px;
+  /* background: linear-gradient(111deg, rgba(33,255,0,1) 0%, rgba(45,107,253,1) 48%); */
+
 }
 
 .slider-bg img {
   object-fit: cover;
   object-position: center;
+
 }
 
 .slider-bg:before {
@@ -517,7 +520,9 @@ ul.dropdown li {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #00669dd1;
+  /* background: rgb(33,255,0); */
+  
+  /* background: #007ff9; */
 }
 
 .hero-slider-content {
@@ -532,11 +537,11 @@ ul.dropdown li {
   font-size: 60px;
   margin-bottom: 30px;
   font-weight: 800;
-  color: #ffa700;
+  color: #c0e234;
 }
 
 .hero-title {
-  font-size: 60px;
+  font-size: 30px;
   margin-bottom: 30px;
   font-weight: 100;
   color: #fff;
@@ -574,7 +579,7 @@ ul.dropdown li {
 
 .slider-btn.active {
   color: #fff;
-  background: #000;
+  background: #007ff9;
 }
 
 .fade:not(.show) {
